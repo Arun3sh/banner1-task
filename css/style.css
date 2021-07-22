@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.secondHalf{
+  border-left: 3px dashed #23B3CB;
+}
+.yellow{
+  color: #F9BC0B;
+}
+.grey{
+  color: grey;
+  text-align: center;
+}
+.darkBlue{
+  color: #214E63;
+}
+.blue{
+  color: #23B3CB;
+}
+.y500{
+  font-size: 42px;
+  line-height: 0.75;
+  font-weight: 500;
+  color: #F9BC0B;
+  text-align: right;
+}
+.portionContent{
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.portion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portion img{
+  max-width: 100px;
+}
+.decoration{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0px;
+  color: white;
+  text-align: center;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #19AEC2;
+  border-bottom: 20px solid #19AEC2;
+}
+.iceCream{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  margin-top: 10px;
+}
+.rightAlign{
+  text-align: right;
+}
+.rowOfImages{
+  align-items: center;
+  min-height: 100px;
+  margin: 0px 0px 10px 0px;
+}
+.statsContainer{
+  margin: 10px 0;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.allImages img{
+  max-width: 75px;
+  max-height: 75px;
+}
+.allImages{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.stats{
+  align-items: center;
+}
+.stats img{
+  height: 75px;
+}
+.stats div{
+  padding: 0;
+}
+.healthyEating{
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+.healthyEating h4, .healthyEating h1{
+  text-align: center;
+  padding-right: 20px;
+}
+.healthIssue{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+.healthIssue h4,.healthIssue p{
+  margin: 0;
+}
+.healthIssueContent{
+  padding: 0;
+}
