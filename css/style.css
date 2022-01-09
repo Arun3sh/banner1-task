@@ -67,10 +67,10 @@
 }
 .statsContainer{
   margin: 10px 0;
-  min-height: 350px;
+  max-height: 125px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 .allImages img{
   max-width: 75px;
